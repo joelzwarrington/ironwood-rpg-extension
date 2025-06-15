@@ -3,7 +3,7 @@
   "name": "Ironwood RPG utilities",
   "description": "Utilities for the idle MMORPG, Ironwood RPG",
   "action": {
-    "default_popup": "src/pages/popup/index.html",
+    "default_popup": "src/entries/popup.html",
     "default_icon": {
       "32": "icon-32.png"
     }
