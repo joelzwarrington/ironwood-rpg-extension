@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "name in manifest.json",
-  "description": "description in manifest.json",
+  "name": "Ironwood RPG utilities",
+  "description": "Utilities for the idle MMORPG, Ironwood RPG",
   "options_ui": {
     "page": "src/pages/options/index.html"
   },
