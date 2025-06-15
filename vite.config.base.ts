@@ -4,7 +4,6 @@ import { ManifestV3Export } from '@crxjs/vite-plugin';
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig, BuildOptions } from 'vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
-import { crxI18n } from './custom-vite-plugins';
 import manifest from './manifest.json';
 import devManifest from './manifest.dev.json';
 import pkg from './package.json';
@@ -32,6 +31,6 @@ export const baseBuildOptions: BuildOptions = {
 };
 
 export default defineConfig({
-  plugins: [tailwindcss(), tsconfigPaths(), react(), crxI18n({ localize, src: './src/locales' })],
+  plugins: [tailwindcss(), tsconfigPaths(), react()],
   publicDir: resolve(__dirname, 'public'),
 });
