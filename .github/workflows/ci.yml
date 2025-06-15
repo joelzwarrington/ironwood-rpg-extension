@@ -18,13 +18,13 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: 'yarn'
+          cache: 'pnpm'
 
       - name: Install dependencies
-        run: yarn
+        run: pnpm
 
       - name: Build Chrome
-        run: yarn build:chrome
+        run: pnpm build:chrome
 
       - name: Upload Chrome extension artifacts
         uses: actions/upload-artifact@v3
