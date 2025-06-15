@@ -13,7 +13,7 @@ export default mergeConfig(
         manifest: {
           ...baseManifest,
           background: {
-            scripts: ['src/pages/background/index.ts'],
+            scripts: ['src/entries/background.ts'],
           },
         } as ManifestV3Export,
         browser: 'firefox',
