@@ -9,12 +9,7 @@ export default function Popup() {
         <p>
           Edit <code>src/pages/popup/Popup.jsx</code> and save to reload.
         </p>
-        <a
-          className="text-blue-400"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a className="text-blue-400" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React!
         </a>
         <p>Popup styled with TailwindCSS!</p>
