@@ -2,9 +2,6 @@
   "manifest_version": 3,
   "name": "Ironwood RPG utilities",
   "description": "Utilities for the idle MMORPG, Ironwood RPG",
-  "options_ui": {
-    "page": "src/pages/options/index.html"
-  },
   "action": {
     "default_popup": "src/pages/popup/index.html",
     "default_icon": {
@@ -22,7 +19,6 @@
       "css": ["contentStyle.css"]
     }
   ],
-  "devtools_page": "src/pages/devtools/index.html",
   "web_accessible_resources": [
     {
       "resources": ["contentStyle.css", "icon-128.png", "icon-32.png"],
