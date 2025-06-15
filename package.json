@@ -1,11 +1,11 @@
 {
-  "name": "vite-web-extension",
-  "version": "1.4.0",
-  "description": "A simple chrome & firefox extension template with Vite, React, TypeScript and Tailwind CSS.",
+  "name": "ironwood-rpg-extension",
+  "version": "1.0.0",
+  "description": "Chrome & Firefox web extension to add utilities when playing Ironwood RPG, a web idle MMORPG.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JohnBra/vite-web-extension.git"
+    "url": "https://github.com/joelzwarrington/ironwood-rpg-extension.git"
   },
   "scripts": {
     "build": "vite build --config vite.config.chrome.ts",
